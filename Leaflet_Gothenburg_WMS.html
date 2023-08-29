@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaflet Webbkarta med WMS-bakgrundskartor</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Add Leaflet CSS och JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script>
+    // Create Leaflet map and set center
+    var map = L.map('map').setView([57.7072, 11.9668], 11);
+
+    // Add WMS layers
+    var wmsLayerOrto1998 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_1998',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 1998'
+    });
+
+    var wmsLayerOrto2003 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2003',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2003'
+    });
+
+    var wmsLayerOrto2006 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2006',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2006'
+    });
+
+    var wmsLayerOrto2008 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2008',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2008'
+    });
+
+    var wmsLayerOrto2010 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2010',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2010'
+    });
+
+    var wmsLayerOrto2015 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2015',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2015'
+    });
+
+    var wmsLayerOrto2017 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2017',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2017'
+    });
+
+    var wmsLayerOrto2019 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2019',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2019'
+    });
+
+    var wmsLayerOrto2021 = L.tileLayer.wms('https://opengeodata.goteborg.se/services/ortofoto/wms/v1', {
+      layers: 'orto_2021',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Ortofoto 2021'
+    });
+
+    // Add layer switcher
+    var baseLayers = {
+      "Ortofoto 1998": wmsLayerOrto1998,
+      "Ortofoto 2003": wmsLayerOrto2003,
+      "Ortofoto 2006": wmsLayerOrto2006,
+      "Ortofoto 2008": wmsLayerOrto2008,
+      "Ortofoto 2010": wmsLayerOrto2010,
+      "Ortofoto 2015": wmsLayerOrto2015,
+      "Ortofoto 2017": wmsLayerOrto2017,
+      "Ortofoto 2019": wmsLayerOrto2019,
+      "Ortofoto 2021": wmsLayerOrto2021
+    };
+
+    L.control.layers(baseLayers).addTo(map);
+
+    // Set standard base layer
+    wmsLayerOrto2021.addTo(map);
+  </script>
+</body>
+</html>
