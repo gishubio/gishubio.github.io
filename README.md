@@ -1,2 +1,2 @@
 # gishubio.github.io
-Web site for gishub.io projects
+Web site for https://www.gishub.io/ projects
