@@ -5,27 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Earthquakes</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map {
+            width: 100%;
+            height: 800px;
+        }
+
+        @media (max-width: 768px) {
+            #map {
+                height: 400px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div id="map" style="height: 600px; width: 800px;"></div>
+    <div id="map"></div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script>
-        // Skapa en Leaflet-karta
+        // Create map
         var map = L.map('map').setView([0, 0], 1);
 
-        // Lägg till ESRI WorldImagery som standard baskarta
+        // Add ESRI WorldImagery
         var esriWorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'ESRI World Imagery'
         }).addTo(map);
 
-        // Lägg till OpenStreetMap som ett alternativt baskartlager
+        // Add OpenStreetMap
         var openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
-			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         });
 
-        // Skapa ett lagerkontrollobjekt för att växla mellan baskartlager
+        // Layer control
         var baseMaps = {
             'ESRI World Imagery': esriWorldImagery,
             'OpenStreetMap': openStreetMap
@@ -45,15 +57,13 @@
             complete: function (results) {
                 var earthquakes = results.data;
 
-                // Loopa igenom jordbävningsdata och lägg till markörer på kartan
                 earthquakes.forEach(function (earthquake) {
                     var time = earthquake.time;
-					var lat = earthquake.latitude;
+                    var lat = earthquake.latitude;
                     var lon = earthquake.longitude;
                     var magnitude = earthquake.mag;
                     var depth = earthquake.depth;
 
-                    // Skapa en popup med information om magnitud och djup
                     var popupContent = `<b>Time:</b> ${time}<br><b>Magnitude:</b> ${magnitude}<br><b>Depth:</b> ${depth}`;
 
                     // Create marker with popup
