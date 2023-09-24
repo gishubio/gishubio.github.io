@@ -22,6 +22,7 @@
         // Lägg till OpenStreetMap som ett alternativt baskartlager
         var openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         });
 
         // Skapa ett lagerkontrollobjekt för att växla mellan baskartlager
