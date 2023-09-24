@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthquakes</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div id="map" style="height: 600px; width: 800px;"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script>
+        // Skapa en Leaflet-karta
+        var map = L.map('map').setView([0, 0], 1);
+
+        // Lägg till ESRI WorldImagery som standard baskarta
+        var esriWorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'ESRI World Imagery'
+        }).addTo(map);
+
+        // Lägg till OpenStreetMap som ett alternativt baskartlager
+        var openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        });
+
+        // Skapa ett lagerkontrollobjekt för att växla mellan baskartlager
+        var baseMaps = {
+            'ESRI World Imagery': esriWorldImagery,
+            'OpenStreetMap': openStreetMap
+        };
+
+        L.control.layers(baseMaps).addTo(map);
+
+        // CSV file
+        var url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.csv';
+
+        // Read CSV file
+        Papa.parse(url, {
+            download: true,
+            header: true,
+            skipEmptyLines: true,
+            dynamicTyping: true,
+            complete: function (results) {
+                var earthquakes = results.data;
+
+                // Loopa igenom jordbävningsdata och lägg till markörer på kartan
+                earthquakes.forEach(function (earthquake) {
+                    var time = earthquake.time;
+					var lat = earthquake.latitude;
+                    var lon = earthquake.longitude;
+                    var magnitude = earthquake.mag;
+                    var depth = earthquake.depth;
+
+                    // Skapa en popup med information om magnitud och djup
+                    var popupContent = `<b>Time:</b> ${time}<br><b>Magnitude:</b> ${magnitude}<br><b>Depth:</b> ${depth}`;
+
+                    // Create marker with popup
+                    var marker = L.circleMarker([lat, lon], {
+                        radius: magnitude * 2,
+                        fillColor: 'red',
+                        color: 'black',
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    }).bindPopup(popupContent).addTo(map);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
