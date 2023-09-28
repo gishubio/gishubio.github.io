@@ -31,7 +31,11 @@
         }).addTo(map);
 
         // Fetch data from API
-        fetch('https://polisen.se/api/events')
+        fetch('https://polisen.se/api/events', {
+            headers: {
+                'User-Agent': 'gishub.io'
+            }
+        })
             .then(response => response.json())
             .then(data => {
                 data.forEach(event => {
