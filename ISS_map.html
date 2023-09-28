@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ISS Position Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="map" style="width: 800px; height: 600px;"></div>
+    <script>
+        // Skapa en Leaflet-karta
+        var map = L.map('map').setView([0, 0], 1);
+        var centered = false; // Flagga för att kontrollera om kartan redan har centrerats
+
+        // Lägg till en karta från OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Funktion för att hämta ISS-positionen och uppdatera kartan
+        function updateISSPosition() {
+            fetch('https://api.wheretheiss.at/v1/satellites/25544')
+                .then(response => response.json())
+                .then(data => {
+                    // Ta bort tidigare markörer (om det finns några)
+                    map.eachLayer(layer => {
+                        if (layer instanceof L.Marker) {
+                            map.removeLayer(layer);
+                        }
+                    });
+
+                    var issMarker = L.marker([data.latitude, data.longitude]).addTo(map);
+                    issMarker.bindPopup(`ISS Position<br>Lat: ${data.latitude}<br>Lon: ${data.longitude}`).openPopup();
+
+                    // Centrera kartan på ISS-positionen endast om det inte har gjorts tidigare
+                    if (!centered) {
+                        map.setView([data.latitude, data.longitude], 2);
+                        centered = true;
+                    }
+                })
+                .catch(error => console.error(error));
+        }
+
+        // Uppdatera ISS-positionen varje sekund (eller efter behov)
+        setInterval(updateISSPosition, 1000);
+    </script>
+</body>
+</html>
