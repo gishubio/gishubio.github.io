@@ -45,13 +45,47 @@
 
         L.control.layers(baseMaps).addTo(map);
 
-        // Read GeoJSON file, add markers
+        // Create a red marker icon
+var greenIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+        // Read GeoJSON file with confirmed sites, add markers
         fetch('https://gishubio.github.io/Impact_craters_confirmed.geojson')
             .then(function(response) {
                 return response.json();
             })
             .then(function(data) {
                 L.geoJSON(data, {
+                    onEachFeature: function (feature, layer) {
+                        var properties = feature.properties;
+                        var popupContent = `
+                            <b>Name:</b> ${properties.Name}<br>
+                            <b>Location:</b> ${properties.Location}<br>
+                            <b>Diameter (km):</b> ${properties.Diameter}<br>
+                            <b>Age (years):</b> ${properties.Age}<br>
+                            <b>URL:</b> <a href="${properties.URL}" target="_blank">Wikipedia</a><br>
+                        `;
+                        layer.bindPopup(popupContent);
+                    }
+                }).addTo(map);
+            });
+
+        // Read GeoJSON file with unconfirmed sites, add markers with the red icon
+        fetch('https://gishubio.github.io/Impact_craters_unconfirmed.geojson')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                L.geoJSON(data, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.marker(latlng, { icon: greenIcon });
+                    },
                     onEachFeature: function (feature, layer) {
                         var properties = feature.properties;
                         var popupContent = `
