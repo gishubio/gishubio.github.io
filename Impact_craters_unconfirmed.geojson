@@ -96,7 +96,8 @@
 				"Name" : "Temimichat",
 				"Location" : "Mauritania",
 				"Diameter" : "0.75 km",
-				"Age" : "unknown"
+				"Age" : "unknown",
+				"URL" : "-"
 			}
 		},
 		{
@@ -109,7 +110,8 @@
 				"Name" : "Wembo-Nyama ring structure",
 				"Location" : "DR Congo",
 				"Diameter" : "36–46 km (est.)",
-				"Age" : "60 million"
+				"Age" : "60 million",
+				"URL" : "-"
 			}
 		},
 		{
@@ -122,7 +124,8 @@
 				"Name" : "Mahas",
 				"Location" : "Northern, Sudan",
 				"Diameter" : "2.85 km",
-				"Age" : "Unknown"
+				"Age" : "Unknown",
+				"URL" : "-"
 			}
 		},
 		{
@@ -135,7 +138,8 @@
 				"Name" : "Circular feature with clear ca. rim 300 m above ground level centred around the hamlet of Baw",
 				"Location" : "Blue Nile State",
 				"Diameter" : "5 km",
-				"Age" : "Unknown"
+				"Age" : "Unknown",
+				"URL" : "-"
 			}
 		},
 		{
@@ -162,7 +166,8 @@
 				"Name" : "Vélingara circular structure",
 				"Location" : "Kolda Region, Senegal",
 				"Diameter" : "48 km",
-				"Age" : "Unknown"
+				"Age" : "Unknown",
+				"URL" : "-"
 			}
 		},
 		{
@@ -217,7 +222,8 @@
 				"Name" : "Gatun structure",
 				"Location" : "Panama",
 				"Diameter" : "2.7–3.0",
-				"Age" : "20 million"
+				"Age" : "20 million",
+				"URL" : "-"
 			}
 		},
 		{
@@ -342,7 +348,8 @@
 				"Name" : "Cerro do Jarau crater",
 				"Location" : "Brazil",
 				"Diameter" : "10 km (6.2 mi)",
-				"Age" : "?"
+				"Age" : "?",
+				"URL" : "-"
 			}
 		},
 		{
@@ -383,7 +390,8 @@
 				"Name" : "Praia Grande",
 				"Location" : "Santos Basin, Brazil",
 				"Diameter" : "20 km (12 mi)",
-				"Age" : "84 million"
+				"Age" : "84 million",
+				"URL" : "-"
 			}
 		},
 		{
@@ -410,7 +418,8 @@
 				"Name" : "Bowers",
 				"Location" : "Antarctica",
 				"Diameter" : "100 km",
-				"Age" : "unknown"
+				"Age" : "unknown",
+				"URL" : "-"
 			}
 		},
 		{
@@ -423,7 +432,8 @@
 				"Name" : "Ross",
 				"Location" : "Antarctica",
 				"Diameter" : "550 km",
-				"Age" : "Oligocene"
+				"Age" : "Oligocene",
+				"URL" : "-"
 			}
 		},
 		{
@@ -450,7 +460,8 @@
 				"Name" : "Guarda",
 				"Location" : "Portugal",
 				"Diameter" : "30",
-				"Age" : "200 million (approx.)"
+				"Age" : "200 million (approx.)",
+				"URL" : "-"
 			}
 		},
 		{
@@ -505,7 +516,8 @@
 				"Name" : "Zerelia East",
 				"Location" : "Thessaly, Greece",
 				"Diameter" : "150 m",
-				"Age" : "7000 (at least)"
+				"Age" : "7000 (at least)",
+				"URL" : "-"
 			}
 		},
 		{
@@ -518,7 +530,8 @@
 				"Name" : "Zerelia West",
 				"Location" : "Thessaly, Greece",
 				"Diameter" : "250 m",
-				"Age" : "7000 (at least)"
+				"Age" : "7000 (at least)",
+				"URL" : "-"
 			}
 		},
 		{
@@ -531,7 +544,8 @@
 				"Name" : "Bedout",
 				"Location" : "Indian Ocean, Western Australia",
 				"Diameter" : "200 ",
-				"Age" : "250 million"
+				"Age" : "250 million",
+				"URL" : "-"
 			}
 		},
 		{
@@ -544,7 +558,8 @@
 				"Name" : "Darwin Crater",
 				"Location" : "Tasmania",
 				"Diameter" : "1.2 ",
-				"Age" : "800 thousand"
+				"Age" : "800 thousand",
+				"URL" : "-"
 			}
 		},
 		{
@@ -557,7 +572,8 @@
 				"Name" : "Deniliquin multiple-ring feature",
 				"Location" : "Southeast Australia",
 				"Diameter" : "520 ",
-				"Age" : "445-444 million, Hirnantian mass extinction event"
+				"Age" : "445-444 million, Hirnantian mass extinction event",
+				"URL" : "-"
 			}
 		},
 		{
@@ -570,7 +586,8 @@
 				"Name" : "Diamantina River ring feature",
 				"Location" : "Upper Diamantina River, Queensland",
 				"Diameter" : "130 ",
-				"Age" : "300 million"
+				"Age" : "300 million",
+				"URL" : "-"
 			}
 		},
 		{
@@ -583,7 +600,8 @@
 				"Name" : "East Warburton Basin",
 				"Location" : "South Australia",
 				"Diameter" : "200",
-				"Age" : "about 300-360 million"
+				"Age" : "about 300-360 million",
+				"URL" : "-"
 			}
 		},
 		{
@@ -596,7 +614,8 @@
 				"Name" : "Gnargoo",
 				"Location" : "Carnarvon Basin,Western Australia",
 				"Diameter" : "75",
-				"Age" : "<300"
+				"Age" : "<300",
+				"URL" : "-"
 			}
 		}
 	]
