@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Impact_craters_test",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Location": "A" }, "geometry": { "type": "Point", "coordinates": [ -73.33512396694222, 51.823352025032122 ] } },
+{ "type": "Feature", "properties": { "Location": "B" }, "geometry": { "type": "Point", "coordinates": [ 6.794628099173493, 24.270579669437094 ] } },
+{ "type": "Feature", "properties": { "Location": "C" }, "geometry": { "type": "Point", "coordinates": [ 122.693801652892546, -26.45807513897147 ] } }
+]
+}
