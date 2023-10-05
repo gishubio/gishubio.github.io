@@ -1,0 +1,603 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Impact_craters_unconfirmed",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 101.86, 60.964 ]
+			},
+			"properties" : {
+				"Name" : "Cheko",
+				"Location" : "Russia (Siberia)",
+				"Diameter" : "~0.5 km",
+				"Age" : "~100 years",
+				"URL" : "https://en.wikipedia.org/wiki/Lake_Cheko"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 116.589444, 59.284444 ]
+			},
+			"properties" : {
+				"Name" : "Patomskiy",
+				"Location" : "Russia (Siberia)",
+				"Diameter" : "~0.16 km",
+				"Age" : "~300 years",
+				"URL" : "https://en.wikipedia.org/wiki/Patomskiy_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 76.624722, 25.348889 ]
+			},
+			"properties" : {
+				"Name" : "Ramgarh",
+				"Location" : "Rajasthan, India",
+				"Diameter" : "~3.0 km",
+				"Age" : "?",
+				"URL" : "https://en.wikipedia.org/wiki/Ramgarh_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 70.233333, 18.666667 ]
+			},
+			"properties" : {
+				"Name" : "Shiva",
+				"Location" : "Indian Ocean west of India",
+				"Diameter" : "~600 km",
+				"Age" : "~65 Ma",
+				"URL" : "https://en.wikipedia.org/wiki/Shiva_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 33.383333, 63.116667 ]
+			},
+			"properties" : {
+				"Name" : "Suavjärvi",
+				"Location" : "Russia (Northwestern)",
+				"Diameter" : "16",
+				"Age" : "2400 million (approx.)",
+				"URL" : "https://en.wikipedia.org/wiki/Suavj%C3%A4rvi"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 24.966667, 24.666667 ]
+			},
+			"properties" : {
+				"Name" : "Kebira",
+				"Location" : "Gilf Kebir region, Egypt",
+				"Diameter" : "31 km",
+				"Age" : "100 million",
+				"URL" : "https://en.wikipedia.org/wiki/Kebira_Crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -9.65, 24.25 ]
+			},
+			"properties" : {
+				"Name" : "Temimichat",
+				"Location" : "Mauritania",
+				"Diameter" : "0.75 km",
+				"Age" : "unknown"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 24.518611, -3.631111 ]
+			},
+			"properties" : {
+				"Name" : "Wembo-Nyama ring structure",
+				"Location" : "DR Congo",
+				"Diameter" : "36–46 km (est.)",
+				"Age" : "60 million"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 30.23, 20.031389 ]
+			},
+			"properties" : {
+				"Name" : "Mahas",
+				"Location" : "Northern, Sudan",
+				"Diameter" : "2.85 km",
+				"Age" : "Unknown"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 30.05, 11.333333 ]
+			},
+			"properties" : {
+				"Name" : "Circular feature with clear ca. rim 300 m above ground level centred around the hamlet of Baw",
+				"Location" : "Blue Nile State",
+				"Diameter" : "5 km",
+				"Age" : "Unknown"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 9.142289, 21.354044 ]
+			},
+			"properties" : {
+				"Name" : "Circular Feature",
+				"Location" : "North-Central Niger",
+				"Diameter" : "10 km",
+				"Age" : "Unknown",
+				"URL" : "https://en.wikipedia.org/wiki/List_of_impact_craters_in_Africa#cite_note-6"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -14.133333, 13 ]
+			},
+			"properties" : {
+				"Name" : "Vélingara circular structure",
+				"Location" : "Kolda Region, Senegal",
+				"Diameter" : "48 km",
+				"Age" : "Unknown"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -112.266667, 50.416667 ]
+			},
+			"properties" : {
+				"Name" : "Bow City",
+				"Location" : "Alberta",
+				"Diameter" : "8 km",
+				"Age" : "70 million",
+				"URL" : "https://en.wikipedia.org/wiki/Bow_City_impact_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -66.383333, 50.05 ]
+			},
+			"properties" : {
+				"Name" : "Corossol",
+				"Location" : "Quebec",
+				"Diameter" : "4 km",
+				"Age" : "2.6 million",
+				"URL" : "https://en.wikipedia.org/wiki/Corossol_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -91.772233, 43.313814 ]
+			},
+			"properties" : {
+				"Name" : "Decorah crater",
+				"Location" : "Iowa, USA",
+				"Diameter" : "5.6",
+				"Age" : "470 million",
+				"URL" : "https://en.wikipedia.org/wiki/Decorah_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -79.783333, 9.1 ]
+			},
+			"properties" : {
+				"Name" : "Gatun structure",
+				"Location" : "Panama",
+				"Diameter" : "2.7–3.0",
+				"Age" : "20 million"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -85.95, 13.37 ]
+			},
+			"properties" : {
+				"Name" : "Pantasma",
+				"Location" : "Nicaragua",
+				"Diameter" : "10",
+				"Age" : "1 million",
+				"URL" : "https://en.wikipedia.org/wiki/Pantasma"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -85.116667, 38.183333 ]
+			},
+			"properties" : {
+				"Name" : "Jeptha Knob",
+				"Location" : "Kentucky, USA",
+				"Diameter" : "4.3",
+				"Age" : "425 million",
+				"URL" : "https://en.wikipedia.org/wiki/Jeptha_Knob"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -74.4, 42.05 ]
+			},
+			"properties" : {
+				"Name" : "Panther Mountain",
+				"Location" : "New York, USA",
+				"Diameter" : "10",
+				"Age" : "375 million",
+				"URL" : "https://en.wikipedia.org/wiki/Panther_Mountain_(New_York)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -79.366667, 33.816667 ]
+			},
+			"properties" : {
+				"Name" : "Snows Island",
+				"Location" : "South Carolina, USA",
+				"Diameter" : "11",
+				"Age" : "unknown",
+				"URL" : "https://en.wikipedia.org/wiki/Snows_Island_Crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -72.85, 39.133333 ]
+			},
+			"properties" : {
+				"Name" : "Toms Canyon",
+				"Location" : "New Jersey, USA",
+				"Diameter" : "22",
+				"Age" : "35 million",
+				"URL" : "https://en.wikipedia.org/wiki/Toms_Canyon_impact_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -121.534672, 37.889925 ]
+			},
+			"properties" : {
+				"Name" : "Victoria Island structure",
+				"Location" : "California, USA",
+				"Diameter" : "5.5",
+				"Age" : "37–49 million",
+				"URL" : "https://en.wikipedia.org/wiki/Victoria_Island_structure"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -93.633333, 37.983333 ]
+			},
+			"properties" : {
+				"Name" : "Weaubleau-Osceola",
+				"Location" : "Missouri, USA",
+				"Diameter" : "15–20",
+				"Age" : "325.0 ± 15.0 million",
+				"URL" : "https://en.wikipedia.org/wiki/Weaubleau-Osceola_structure"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -90.735, 30.768 ]
+			},
+			"properties" : {
+				"Name" : "Brushy Creek Feature",
+				"Location" : "Louisiana, USA",
+				"Diameter" : "2",
+				"Age" : "11,000 - 30,000 years",
+				"URL" : "https://en.wikipedia.org/wiki/St._Helena_Parish,_Louisiana#Brushy_Creek_Impact_Crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -56.533333, -30.2 ]
+			},
+			"properties" : {
+				"Name" : "Cerro do Jarau crater",
+				"Location" : "Brazil",
+				"Diameter" : "10 km (6.2 mi)",
+				"Age" : "?"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -67.666667, -12.583333 ]
+			},
+			"properties" : {
+				"Name" : "Iturralde",
+				"Location" : "Bolivia",
+				"Diameter" : "8 km (5.0 mi)",
+				"Age" : "11–30 thousand",
+				"URL" : "https://en.wikipedia.org/wiki/Iturralde_Crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -49.15, -22.47 ]
+			},
+			"properties" : {
+				"Name" : "Piratininga crater",
+				"Location" : "Paraná Basin, Brazil",
+				"Diameter" : "12 km (7.5 mi)",
+				"Age" : "117 million",
+				"URL" : "https://en.wikipedia.org/wiki/Piratininga_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -45.616667, -25.65 ]
+			},
+			"properties" : {
+				"Name" : "Praia Grande",
+				"Location" : "Santos Basin, Brazil",
+				"Diameter" : "20 km (12 mi)",
+				"Age" : "84 million"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -69.25, 4.5 ]
+			},
+			"properties" : {
+				"Name" : "Vichada Structure",
+				"Location" : "Colombia",
+				"Diameter" : "50 km (31 mi)",
+				"Age" : "30 million",
+				"URL" : "https://en.wikipedia.org/wiki/Vichada_Structure"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 176, -71.2 ]
+			},
+			"properties" : {
+				"Name" : "Bowers",
+				"Location" : "Antarctica",
+				"Diameter" : "100 km",
+				"Age" : "unknown"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 178.5, -77.5 ]
+			},
+			"properties" : {
+				"Name" : "Ross",
+				"Location" : "Antarctica",
+				"Diameter" : "550 km",
+				"Age" : "Oligocene"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 120, -70 ]
+			},
+			"properties" : {
+				"Name" : "Wilkes Land",
+				"Location" : "Wilkes Land, Antarctica",
+				"Diameter" : "485 km",
+				"Age" : "<500 million?",
+				"URL" : "https://en.wikipedia.org/wiki/Wilkes_Land_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -7.1, 40.633333 ]
+			},
+			"properties" : {
+				"Name" : "Guarda",
+				"Location" : "Portugal",
+				"Diameter" : "30",
+				"Age" : "200 million (approx.)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 1.85, 54.233333 ]
+			},
+			"properties" : {
+				"Name" : "Silverpit",
+				"Location" : "North Sea near England",
+				"Diameter" : "20",
+				"Age" : "60 ± 15 million",
+				"URL" : "https://en.wikipedia.org/wiki/Silverpit_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 13.595833, 42.177222 ]
+			},
+			"properties" : {
+				"Name" : "Sirente",
+				"Location" : "Italy",
+				"Diameter" : "largest 140 x 115 m",
+				"Age" : "1700 (approx.)",
+				"URL" : "https://en.wikipedia.org/wiki/Sirente_crater"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -5.165, 57.891 ]
+			},
+			"properties" : {
+				"Name" : "Ullapool",
+				"Location" : "Loch Broom, Scotland",
+				"Diameter" : "50",
+				"Age" : "1.2 billion",
+				"URL" : "https://en.wikipedia.org/wiki/Ullapool_bolide_impact"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 22.714167, 39.161944 ]
+			},
+			"properties" : {
+				"Name" : "Zerelia East",
+				"Location" : "Thessaly, Greece",
+				"Diameter" : "150 m",
+				"Age" : "7000 (at least)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 22.708889, 39.163333 ]
+			},
+			"properties" : {
+				"Name" : "Zerelia West",
+				"Location" : "Thessaly, Greece",
+				"Diameter" : "250 m",
+				"Age" : "7000 (at least)"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 119, -18 ]
+			},
+			"properties" : {
+				"Name" : "Bedout",
+				"Location" : "Indian Ocean, Western Australia",
+				"Diameter" : "200 ",
+				"Age" : "250 million"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 145.666667, -42.316667 ]
+			},
+			"properties" : {
+				"Name" : "Darwin Crater",
+				"Location" : "Tasmania",
+				"Diameter" : "1.2 ",
+				"Age" : "800 thousand"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 144.966667, -35.533333 ]
+			},
+			"properties" : {
+				"Name" : "Deniliquin multiple-ring feature",
+				"Location" : "Southeast Australia",
+				"Diameter" : "520 ",
+				"Age" : "445-444 million, Hirnantian mass extinction event"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 141.9, -22.15 ]
+			},
+			"properties" : {
+				"Name" : "Diamantina River ring feature",
+				"Location" : "Upper Diamantina River, Queensland",
+				"Diameter" : "130 ",
+				"Age" : "300 million"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 140.083333, -27 ]
+			},
+			"properties" : {
+				"Name" : "East Warburton Basin",
+				"Location" : "South Australia",
+				"Diameter" : "200",
+				"Age" : "about 300-360 million"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 115.224722, -24.806667 ]
+			},
+			"properties" : {
+				"Name" : "Gnargoo",
+				"Location" : "Carnarvon Basin,Western Australia",
+				"Diameter" : "75",
+				"Age" : "<300"
+			}
+		}
+	]
+}
