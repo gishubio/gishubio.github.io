@@ -1,0 +1,396 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Caves",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -86.10357, 37.18758 ]
+			},
+			"properties" : {
+				"Number" : 1,
+				"Name" : "Mammoth Cave ",
+				"Length" : "685.6 km (426.0 mi)",
+				"Location" : "near Brownsville, Kentucky, United States ",
+				"Discovery" : 1791,
+				"URL" : "https://en.wikipedia.org/wiki/Mammoth_Cave"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -87.4875, 20.16028 ]
+			},
+			"properties" : {
+				"Number" : 2,
+				"Name" : "Sistema Ox Bel Ha ",
+				"Length" : "435.8 km (270.8 mi)",
+				"Location" : "near Tulum, Quintana Roo, Mexico ",
+				"Discovery" : 1996,
+				"URL" : "https://en.wikipedia.org/wiki/Sistema_Ox_Bel_Ha"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 107.27608, 28.24199 ]
+			},
+			"properties" : {
+				"Number" : 3,
+				"Name" : "Shuanghedong Cave Network ",
+				"Length" : "400.7 km (249.0 mi)",
+				"Location" : "Guizhou, China ",
+				"Discovery" : 1988,
+				"URL" : "https://en.wikipedia.org/wiki/Shuanghedong_Cave_Network"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -87.464111, 20.246556 ]
+			},
+			"properties" : {
+				"Number" : 4,
+				"Name" : "Sistema Sac Actun / Sistema Dos Ojos ",
+				"Length" : "386.1 km (239.9 mi)",
+				"Location" : "near Tulum, Quintana Roo, Mexico ",
+				"Discovery" : 1987,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -103.82944, 43.72944 ]
+			},
+			"properties" : {
+				"Number" : 5,
+				"Name" : "Jewel Cave ",
+				"Length" : "349.7 km (217.3 mi)",
+				"Location" : "near Custer, South Dakota, United States ",
+				"Discovery" : 1900,
+				"URL" : "https://en.wikipedia.org/wiki/Jewel_Cave"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 25.989496042, 48.738830378 ]
+			},
+			"properties" : {
+				"Number" : 6,
+				"Name" : "Optymistychna Cave ",
+				"Length" : "264.5 km (164.4 mi)",
+				"Location" : "near Korolivka, Ukraine ",
+				"Discovery" : 1966,
+				"URL" : "https://en.wikipedia.org/wiki/Optymistychna_Cave"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -103.47955, 43.55804 ]
+			},
+			"properties" : {
+				"Number" : 7,
+				"Name" : "Wind Cave ",
+				"Length" : "260.2 km (161.7 mi)",
+				"Location" : "near Hot Springs, South Dakota, United States ",
+				"Discovery" : 1881,
+				"URL" : "https://en.wikipedia.org/wiki/Wind_Cave"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 114.83176, 4.06529 ]
+			},
+			"properties" : {
+				"Number" : 8,
+				"Name" : "Clearwater Cave System ",
+				"Length" : "255.9 km (159.0 mi)",
+				"Location" : "near Miri, Sarawak, Malaysia ",
+				"Discovery" : 1978,
+				"URL" : "https://en.wikipedia.org/wiki/Clearwater_Cave_System"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -104.5033091, 32.190642 ]
+			},
+			"properties" : {
+				"Number" : 9,
+				"Name" : "Lechuguilla Cave ",
+				"Length" : "242.0 km (150.4 mi)",
+				"Location" : "near Carlsbad, New Mexico, United States ",
+				"Discovery" : 1900,
+				"URL" : "https://en.wikipedia.org/wiki/Lechuguilla_Cave"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -85.980122, 37.191736 ]
+			},
+			"properties" : {
+				"Number" : 10,
+				"Name" : "Fisher Ridge Cave System ",
+				"Length" : "212.1 km (131.8 mi)",
+				"Location" : "near Brownsville, Kentucky, United States ",
+				"Discovery" : 1981,
+				"URL" : "https://en.wikipedia.org/wiki/Fisher_Ridge_Cave_System"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 8.78833, 46.97667 ]
+			},
+			"properties" : {
+				"Number" : 11,
+				"Name" : "Hölloch ",
+				"Length" : "209.8 km (130.4 mi)",
+				"Location" : "Muotathal, Switzerland ",
+				"Discovery" : 1875,
+				"URL" : "https://en.wikipedia.org/wiki/Hölloch"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -3.680799, 43.253067 ]
+			},
+			"properties" : {
+				"Number" : 12,
+				"Name" : "Sistema del Alto Tejuelo ",
+				"Length" : "181.6 km (112.8 mi)",
+				"Location" : "Cantabria, Spain ",
+				"Discovery" : 1965,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 7.901231, 46.783822 ]
+			},
+			"properties" : {
+				"Number" : 13,
+				"Name" : "Siebenhengste-Hohgant-Höhle ",
+				"Length" : "164.5 km (102.2 mi)",
+				"Location" : "Switzerland ",
+				"Discovery" : 1966,
+				"URL" : "https://en.wikipedia.org/wiki/Siebenhengste-Hohgant-Höhle"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 13.772333, 47.701528 ]
+			},
+			"properties" : {
+				"Number" : 14,
+				"Name" : "Schönberg-Höhlensystem [de] ",
+				"Length" : "155.6 km (96.69 mi)",
+				"Location" : "Austria ",
+				"Discovery" : 1976,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -3.56197, 43.23082 ]
+			},
+			"properties" : {
+				"Number" : 15,
+				"Name" : "Sistema del Mortillano [es] ",
+				"Length" : "146.5 km (91.03 mi)",
+				"Location" : "Cantabria, Spain ",
+				"Discovery" : 1960,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 25.9658330555, 48.7644444 ]
+			},
+			"properties" : {
+				"Number" : 16,
+				"Name" : "Priest's Grotto ",
+				"Length" : "142.1 km (88.30 mi)",
+				"Location" : "Ukraine ",
+				"Discovery" : 1940,
+				"URL" : "https://en.wikipedia.org/wiki/Priest%27s_Grotto"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 13.80306, 47.66194 ]
+			},
+			"properties" : {
+				"Number" : 17,
+				"Name" : "Steinbrücken Cave ",
+				"Length" : "137.7 km (85.56 mi)",
+				"Location" : "Austria ",
+				"Discovery" : 1929,
+				"URL" : "https://en.wikipedia.org/wiki/Steinbrücken_Cave"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 45.33543, -16.45189 ]
+			},
+			"properties" : {
+				"Number" : 18,
+				"Name" : "Marosakabe cave system ",
+				"Length" : "124 km (77.05 mi)",
+				"Location" : "Madagascar ",
+				"Discovery" : 2006,
+				"URL" : "https://en.wikipedia.org/wiki/Marosakabe_cave_system"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 130.38333, -16.06333 ]
+			},
+			"properties" : {
+				"Number" : 19,
+				"Name" : "Bullita Cave ",
+				"Length" : "120.4 km (74.81 mi)",
+				"Location" : "Australia ",
+				"Discovery" : 1990,
+				"URL" : "https://en.wikipedia.org/wiki/Bullita_Cave"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 0.86639, 42.9725 ]
+			},
+			"properties" : {
+				"Number" : 20,
+				"Name" : "Réseau Félix Trombe [fr] ",
+				"Length" : "117.2 km (72.82 mi)",
+				"Location" : "France ",
+				"Discovery" : 1908,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -3.579485, 43.192726 ]
+			},
+			"properties" : {
+				"Number" : 21,
+				"Name" : "Sistema del Gandara ",
+				"Length" : "116.7 km (72.51 mi)",
+				"Location" : "Cantabria, Spain ",
+				"Discovery" : 2005,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 13.630953, 47.544975 ]
+			},
+			"properties" : {
+				"Number" : 22,
+				"Name" : "Hirlatzhöhle [de] ",
+				"Length" : "115.8 km (71.95 mi)",
+				"Location" : "Austria ",
+				"Discovery" : 1949,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -40.859722, -10.1625 ]
+			},
+			"properties" : {
+				"Number" : 23,
+				"Name" : "Toca da Boa Vista ",
+				"Length" : "114 km (70.84 mi)",
+				"Location" : "Brazil ",
+				"Discovery" : 1987,
+				"URL" : "https://en.wikipedia.org/wiki/Toca_da_Boa_Vista"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -3.63059, 43.03376 ]
+			},
+			"properties" : {
+				"Number" : 24,
+				"Name" : "Ojo Guareña ",
+				"Length" : "110 km (68.35 mi)",
+				"Location" : "Spain ",
+				"Discovery" : 1956,
+				"URL" : "https://en.wikipedia.org/wiki/Ojo_Guareña"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -87.417239, 20.372622 ]
+			},
+			"properties" : {
+				"Number" : 25,
+				"Name" : "Sistema K'oox Baal ",
+				"Length" : "103.7 km (64.44 mi)",
+				"Location" : "near Tulum, Quintana Roo, Mexico ",
+				"Discovery" : 1987,
+				"URL" : "-"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -96.8, 18.1212 ]
+			},
+			"properties" : {
+				"Number" : 26,
+				"Name" : "Sistema Huautla ",
+				"Length" : "100.1 km (62.20 mi)",
+				"Location" : "Mexico ",
+				"Discovery" : 1965,
+				"URL" : "https://en.wikipedia.org/wiki/Sistema_Huautla"
+			}
+		}
+	]
+}
