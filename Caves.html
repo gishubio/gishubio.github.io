@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The world´s longest caves</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map {
+            width: 100%;
+            height: 800px;
+        }
+
+        @media (max-width: 768px) {
+            #map {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // Initialize map
+        var map = L.map('map').setView([0, 0], 1);
+
+        // Add ESRI WorldImagery
+        var esriWorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'ESRI World Imagery'
+        }).addTo(map);
+
+        // Add OpenStreetMap
+        var openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+
+        // Layer control
+        var baseMaps = {
+            'ESRI World Imagery': esriWorldImagery,
+            'OpenStreetMap': openStreetMap
+        };
+
+        L.control.layers(baseMaps).addTo(map);
+
+        // Read GeoJSON file with caves, add markers
+        fetch('https://gishubio.github.io/Geodata/Caves.geojson')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                L.geoJSON(data, {
+                    onEachFeature: function (feature, layer) {
+                        var properties = feature.properties;
+                        var popupContent = `
+                            <b>Number:</b> ${properties.Number}<br>
+							<b>Name:</b> ${properties.Name}<br>
+                            <b>Length (km):</b> ${properties.Length}<br>
+                            <b>Location:</b> ${properties.Location}<br>
+                            <b>Discovery:</b> ${properties.Discovery}<br>
+                            <b>URL:</b> <a href="${properties.URL}" target="_blank">Wikipedia</a><br>
+                        `;
+                        layer.bindPopup(popupContent);
+                    }
+                }).addTo(map);
+            });
+    </script>
+</body>
+</html>
